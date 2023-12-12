@@ -31,7 +31,38 @@ namespace ConsoleGames.Games
 
         public override Score Play(int level)
         {
-            throw new NotImplementedException();
+            string[] shape = new string[5];
+
+
+
+            //fill image white test, w represents white
+
+            for (int j = 0; j < shape.Length; j++)
+            {
+                shape[j] = "1234567890"; // later reaplace spaces with "w" and code function to map colorcodes like "w" to backgr.color in console when printing image.
+
+            }
+
+
+            Console.ReadLine();
+
+            //display image (not sure if correct like this, edit later)
+
+            for (int i = 0; i < shape.Length; i++)
+            {
+                Console.WriteLine(shape[i]);
+                
+            }
+            
+
+
+
+
+            bool game = true;
+            Console.ReadLine();
+
+
+            return new Score();
         }
     }
 }

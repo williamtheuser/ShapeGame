@@ -8,7 +8,7 @@ namespace ConsoleGames
     public static class Program
     {
         static Game[] gameArray = new Game[] {
-            new Games.GuessNumber(), new Games.HangMan()
+           new Games.ShapeGame()
         };
 
         static Game currentGame;
